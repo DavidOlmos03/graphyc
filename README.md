@@ -1,13 +1,15 @@
-# MetodoGraficoApp
+# Graphyc App
 
 A small, modular Tkinter application to visualize feasible regions of simple
 linear constraints (2 variables). The project is organized to be maintainable
 and scalable with clear separation between GUI, business logic and solver code.
 
-> Documentation and inline docstrings are in English. Follow PEP8 for style.
-
+# Clone this repo
+```bash
+    git clone https://github.com/DavidOlmos03/graphyc.git
+```
 ## Project structure
-
+```bash
 MetodoGraficoApp/
 │── main.py
 │── README.md
@@ -19,7 +21,7 @@ MetodoGraficoApp/
 │ ├── init.py
 │ ├── restrictions.py
 │ └── solver.py
-
+```
 
 ## Requirements
 
@@ -30,9 +32,6 @@ This project uses only standard Python libraries plus `numpy` and `matplotlib`.
 - matplotlib
 - tkinter (usually included with Python on many systems)
 
-> You mentioned you do not want to install libraries locally. If `numpy` or
-> `matplotlib` are not available on your system, there are two options:
->
 > 1. Install them globally or in a virtual environment:
 >    ```bash
 >    python -m venv .venv
@@ -40,10 +39,6 @@ This project uses only standard Python libraries plus `numpy` and `matplotlib`.
 >    .venv\Scripts\activate      # Windows
 >    pip install -r requirements.txt # Install all necessary dependencies
 >    ```
->
-> 2. Use a Python distribution that already includes scientific packages
->    (for example Anaconda / Miniconda). This avoids installing packages in
->    your project directory.
 
 ## How to run
 
@@ -51,4 +46,5 @@ From the project root:
 
 ```bash
 python main.py
-
+or 
+python3 main.py
