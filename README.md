@@ -10,7 +10,7 @@ and scalable with clear separation between GUI, business logic and solver code.
 ```
 ## Project structure
 ```bash
-MetodoGraficoApp/
+Graphyc/
 │── main.py
 │── README.md
 │── gui/
