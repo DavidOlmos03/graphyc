@@ -1,0 +1,67 @@
+# Entorno virtual específico
+venv-graphyc/
+
+# Entornos virtuales de Python en general
+venv/
+env/
+ENV/
+.env/
+.venv/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Archivos de instalación de pip
+pip-delete-this-directory.txt
+
+# Entornos de desarrollo
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Archivos de sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos de configuración local (si los tienes)
+config.local.py
+settings.local.py
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos específicos de Tkinter (si generas imágenes temporales)
+*.ps
+*.eps
